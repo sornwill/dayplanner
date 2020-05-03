@@ -6,10 +6,10 @@ Description : The following shows a time frame from 9 am to 6 pm. Each time bloc
 
 Each time block will change colors according to the following:
 
-Present = Red
-Future = Green
-Past 6 Hours = Grey
-Hours for next day = White
+Present = Red;
+Future = Green;
+Past 6 Hours = Grey;
+Hours for next day = White;
 
 example 1
 ![Image of examples](example1.png)

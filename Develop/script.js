@@ -1,6 +1,7 @@
 var savebtn = $(".saveBtn");
 var description = $(".description");
 
+renderEvents();
 console.log(localStorage);
 
 savebtn.on("click", function(event) {
@@ -9,11 +10,11 @@ savebtn.on("click", function(event) {
 
         
 
-        var saved = $(".block"+[i]).val();
+        var saved = $(".block"+i).val();
 
         console.log(saved);
 
-        localStorage.setItem("events"+[i], saved);
+        localStorage.setItem("events"+i, saved);
 
     }
 });
@@ -22,9 +23,9 @@ savebtn.on("click", function(event) {
 
 function renderEvents(){
     for(let i = 1; i < 11; i++){
-        var events = localStorage.getItem("events"+[i]);
+        var events = localStorage.getItem("events"+i);
         
-        $(".block"+[i]).text = events;
+        $(".block"+i).val(events);
     }
     console.log(events);
 };

@@ -11,6 +11,8 @@ Future = Green
 Past 6 Hours = Grey
 Hours for next day = White
 
+example 1
 ![Image of examples](example1.png)
 
+Example 2 
 ![Image of examples](example2.png)
